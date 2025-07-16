@@ -1,3 +1,11 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "ブログ記事一覧",
+    description: "ブログ記事の一覧が表示されます",
+};
+
+
 // ダミーデータ
 const articles = [
     {id: "1", title: "タイトル1"},
