@@ -1,3 +1,4 @@
+import ClientComponent from "@/components/ClientCoponent"
 // import { useState } from "react"
 
 export default function ServerComponent () {
@@ -8,6 +9,7 @@ export default function ServerComponent () {
         <div>
             サーバー
             {/* <button onClick={() => setCount(count + 1)}>Count: {count}</button> */}
+            <ClientComponent />
         </div>
     )
 }
