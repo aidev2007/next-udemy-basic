@@ -4,12 +4,12 @@ export default function AboutLayout({
   children: React.ReactNode;
 }>) {
   return (
-    // <html lang="ja">
+    <html lang="ja">
       <body>
         <div className="bg-gray-100 h-screen">
           {children}
         </div>
       </body>
-    // </html>
+    </html>
   );
 }
