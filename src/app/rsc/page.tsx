@@ -1,4 +1,4 @@
-import ClientComponent from "@/components/ClientCoponent"
+import ClientComponent from "@/components/ClientComponent"
 // import { useState } from "react"
 import Link from "next/link"
 
