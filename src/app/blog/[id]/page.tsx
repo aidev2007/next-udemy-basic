@@ -8,7 +8,7 @@ export async function generateMetadata({params}: Params) {
   const { id } = await params
   return {
     title: `ブログ記事ID：${id}です`,
-    description: `ブログ記事${id}の詳細が表示されます`,
+    // description: `ブログ記事${id}の詳細が表示されます`,
   }
 }
 export default async function page({params} : Params) {
